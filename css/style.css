@@ -1,0 +1,292 @@
+
+.sameText{
+  width: 400px;
+  height: auto;
+}
+.sameText h2{
+  margin-bottom: 5px;
+}
+.sameText p{
+  color:grey;
+}
+header{
+  display: grid;
+  justify-items: center;
+  height: 35em;
+}
+.phone{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px #e6e3ea solid;
+  justify-items: center;
+}
+.phone ul{
+  display: flex;
+}
+.phone li{
+  border: 1px #e6e3ea solid;
+  padding:5px;
+}
+.header{
+  display: grid;
+  justify-items: center;
+  height: 100%;
+}
+.header nav{
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  width: 60%;
+  margin-top: 10px;
+}
+nav ul{
+  display: flex;
+}
+.headerContent{
+  height: auto;
+  align-items: center;
+  width: 60%;
+}
+nav li{
+  margin-right: 10px;
+}
+
+nav button{
+  background: #01d85f;
+  color: white;
+  border-radius: 5px;
+  width:150px;
+  height: 50px;
+}
+.contact{
+  display: flex;
+}
+.contact img{
+  height: 50px;
+  width: 50px;
+}
+.headerContent h2{
+  margin-bottom: 20px;
+  width: 40%;
+}
+.headerContent p{
+  width: 40%;
+}
+.headerContent ul{
+  display: flex;
+  margin-top: 40px;
+}
+.headerImg{
+  float:right;
+}
+/*HeaderEnd*/
+.digital{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.digital .cardList{
+  display: grid;
+  grid-template-columns:3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+.digital .card:first-child{
+  grid-row : span 2;
+  margin-left: auto;
+  margin-right: 0;
+}
+.cardList .card{
+  padding: 20px;
+  width: 200px;
+}
+.cardList .card h3{
+  margin-bottom: 10px;
+}
+.cardList .img{
+  width: 50px;
+  height: 50px;
+  background: green;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.digitalText span{
+  color: green;
+}
+/*DigitalEnd*/
+.studio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.studioText{
+  width: 350px;
+  margin-bottom: 40px;
+}
+.studioText span{
+  color: red;
+  margin-bottom: 20px;
+}
+.studioText h2{
+  margin-bottom: 20px;
+}
+.studioSubTitle{
+  float: left;
+}
+.studioSubTitle-2{
+  float: left;
+}
+.imgStudio{
+  width: 250px;
+  height: 300px;
+  background: rgb(12,34,45);
+  border-radius:20px;
+}
+/*Studio End*/
+.attention{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.attentionTitle{
+  grid-column: span 2;
+  text-align: center;
+}
+
+.imgAttention{
+  width: 500px;
+  height: 400px;
+  background: rgb(56,20,120);
+}
+.attentionText{
+  width: 550px;
+  margin-bottom: 30px;
+}
+.attentionText ul{
+  display: flex;
+  margin-bottom: 30px;
+}
+.attentionText li :hover{
+  color: red;
+  border-bottom: 1px solid red;
+}
+.attentionText h2{
+  margin-bottom: 20px;
+}
+.attentionText p{
+  margin-bottom: 20px;
+}
+/*attention end*/
+.location{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  height: 700px;
+  justify-items:center;
+  align-items: center;
+}
+.location span{
+  margin-bottom: 30px;
+  color: red;
+}
+.location button{
+  background: red;
+  color: white;
+  margin-top: 20px;
+}
+.staff{
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  background: red;
+}
+.amountverticale{
+  width: 150px;
+  height: 150px;
+  background: grey;
+  border-radius: 100%;
+  grid-column: span 2;
+}
+.amountgoriz{
+  width: 150px;
+  height: 150px;
+  background: grey;
+  border-radius: 100%;
+  grid-row: span 4;
+}
+/*location end*/
+.brand{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.brand .cardList{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2;
+}
+.brandTitle{
+  grid-column: 2;
+}
+.brand .card{
+  width:95%;
+  margin: 20px 10px 10px;
+}
+.cardList .card:first-child{
+  margin-top: 10px;
+  border-radius: 50px;
+
+}
+.brand .img{
+  width: 100%;
+  height: 550px;
+  background: grey;
+  border-radius: 5px;
+}
+/*BrandsEnd*/
+footer{
+  height: 450px;
+  display: grid;
+  justify-items: center;
+}
+.footerContent{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+.footerMenu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 57%;
+}
+.footerLogo{
+  width: 330px;
+}
+.footerMenu h2{
+  margin-bottom: 20px;
+}
+.footerMenu p{
+  color: grey;
+}
+.footerMenu h3{
+  margin-bottom: 20px;
+}
+.footerMenu li{
+  color: grey;
+}
+.Officers{
+  width: 330px;
+}
+.copyright{
+  border-top: 1px grey solid;
+  width: 57%;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+/*footer end*/
+.factorial{
+  margin:100px;
+}
+.bubble{
+  margin:100px;
+}
